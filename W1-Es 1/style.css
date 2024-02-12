@@ -1,0 +1,36 @@
+body{
+    margin: 0; 
+    /* allinea angolo sx*/
+    
+    text-align: center;
+    /*testo al centro*/
+
+    color: #333;
+    /*colore testo*/
+
+    font-family: Georgia, serif; 
+}
+
+header img{
+    width: 200px;
+    /*lunghezza*/
+
+    margin: 20px, 0;
+    /* 20px sopra e sotto, 0 a dx e sx*/
+}
+
+nav{
+    background-color: #fefbf1;
+    border-top: 1px solid #ffd977;
+    padding: 15px 0;
+    /* padding: distanza tra contenuto e contenitore*/
+    color: #004d4d;
+    font-size: 0.8 rem;
+    /* rem = unità di misura*/
+    margin-bottom: 4rem;
+}
+
+nav span span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
